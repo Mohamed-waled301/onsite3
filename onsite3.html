@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Special Menu</title>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-RXf+QSDCUQs0Z6a/6GkYJ8hZ+hDnLxja4c6xwC6a1uYlZmrqYw5XxUuZrVv8dX4p4+Yx0/ojS2b1yQOvO4i7Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="stylesheet" href="onsite3.css">
+</head>
+<body>
+
+<section id="offers">
+  <div class="container">
+    <div class="title">
+      <h1>Our Special Offers</h1>
+      <p>More than 25+ years of experience</p>
+    </div>
+
+    <div class="offers-items">
+      <div id="offer1" class="offer">
+        <img src="offer1.png" alt="Quattro Pasta">
+        <div>
+          <h3>Quattro Pasta</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing <br> 
+            <span class="discre">elit. Nam, quibusdam.</span>
+          </p>
+          <p><del>$55.00</del> <span class="primary-text">$18.00</span></p>
+        </div>
+      </div>
+      <div id="offer2" class="offer">
+        <img src="offer2.png" alt="Vegetarian Pasta">
+        <div>
+          <h3>Vegetarian Pasta</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit <br> 
+            <span class="discre">Nam, quibusdam.</span> 
+          </p>
+          <p><del>$150.00</del> <span class="primary-text">$100.00</span></p>
+        </div>
+      </div>
+      <div id="offer3" class="offer">
+        <img src="offer3.png" alt="Gluten-Free Pasta">
+        <div>
+          <h3>Gluten-Free Pasta</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> 
+            <span class="discre">Nam, quibusdam.</span> 
+          </p>
+          <p><del>$250.00</del> <span class="primary-text">$220.00</span></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="btns">
+      <button class="btn-l" onclick="prevOffer()">←</button>
+      <button class="btn-r" onclick="nextOffer()">→</button>
+    </div>
+  </div>
+</section>
+
+<section class="menu-section">
+    <h2>Our Special Menu</h2>
+    <p>Order two and get third for free</p>
+
+    <div id="menuContainer" class="menu-container"></div>
+
+    <button class="btn">Explore Full Menu</button>
+</section>
+<section>
+    <div class="contact">
+
+     
+        <div class="information">
+            <h1>ADDRESS</h1>
+            <p><i class="fa-solid fa-location-dot"></i> Mansoura, Beside stadium , Egypt</p>
+            <p><i class="fa-solid fa-phone"></i> Phone: 123456789</p>
+            <p><i class="fa-solid fa-envelope"></i> support@foodlover.com</p>
+
+            <h1>WORKING HOURS</h1>
+            <p>8:00 am to 11:00 pm on Weekdays</p>
+            <p>11:00 am to 1:00 Am on Weekends</p>
+
+            <h1>FOLLOW US</h1>
+            <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+
+      
+        <div class="input1">
+            <form action="#" id="contact-form">
+                <input type="text" placeholder="Full Name" id="name">
+                <p id="para1">Name must be 3-15 characters</p>
+
+                <input type="email" placeholder="Email Address" id="email">
+                <p id="para2">Please enter a valid email</p>
+
+                <input type="text" placeholder="Subject" id="subject">
+
+                <textarea name="message" id="message" placeholder="Message"></textarea>
+                <p id="para3"> </p>
+
+                <button type="submit">SEND MESSAGE</button>
+            </form>
+        </div>
+
+    </div>
+</section>
+<section id="gallery">
+<div class="container">
+<h2>Our Food Gallery</h2>
+<div class="img-gallery">
+<img src="gallery1.jpeg" alt="gallery1">
+<img src="gallery2.jpeg" alt="gallery2">
+<img src="gallery3.jpeg" alt="gallery3">
+<img src="gallery4.jpeg" alt="gallery4">
+<img src="gallery5.jpeg" alt="gallery5">
+<img src="gallery6.jpeg" alt="gallery6">
+</div>
+</div> 
+</section>
+
+
+<div id="boxContainer">
+<div id="boxItem">
+<i id="prev" class="fa-solid fa-circle-left fa-2x"> ⬅️</i>
+<i id="close" class="fa-solid fa-circle-xmark fa-2x">❌</i>
+<i id="next" class="fa-solid fa-circle-right fa-2x">➡️</i>
+</div>
+</div> 
+<script src="onsite3.js"></script>
+</body>
+</html>
